@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text to Image Generator</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Text to Image</h1>
+      <button id="settings-btn" class="icon-btn" title="Settings">⚙️</button>
+    </header>
+    
+    <div class="controls">
+      <div class="prompt-input-group">
+        <textarea 
+          id="prompt-input" 
+          placeholder="Type or paste text to generate an image..."
+          rows="3"
+        ></textarea>
+        <button id="generate-from-input-btn" class="primary-btn">
+          ✨ Generate Image
+        </button>
+      </div>
+      <div class="divider">
+        <span>or</span>
+      </div>
+      <p style="text-align: center; font-size: 13px; color: var(--text-secondary); line-height: 1.5;">
+        Select text on any webpage, right-click, and choose <strong>"Generate Image"</strong>
+      </p>
+    </div>
+    
+    <div id="current-generation" class="generation-area">
+      <div class="generation-area-empty">
+        <div class="icon">✨</div>
+        <p><strong>Ready to create</strong></p>
+        <p>Type a prompt above or select text on any webpage</p>
+      </div>
+    </div>
+    
+    <div class="history-section">
+      <div class="history-header">
+        <h2>History</h2>
+        <button id="clear-history-btn" class="secondary-btn">Clear All</button>
+      </div>
+      
+      <div id="history-container" class="history-grid">
+        <!-- Historical images will be displayed here -->
+      </div>
+    </div>
+    
+    <!-- Settings Modal -->
+    <div id="settings-modal" class="modal hidden">
+      <div class="modal-content">
+        <h2>Settings</h2>
+        <div class="form-group">
+          <label for="api-key-input">FAL API Key:</label>
+          <input 
+            type="password" 
+            id="api-key-input" 
+            placeholder="Enter your FAL API key"
+            autocomplete="off"
+          >
+        </div>
+        <div class="modal-actions">
+          <button id="save-api-key-btn" class="primary-btn">Save</button>
+          <button id="close-settings-btn" class="secondary-btn">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script type="module" src="sidepanel/sidepanel.js"></script>
+</body>
+</html>
