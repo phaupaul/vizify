@@ -1,7 +1,7 @@
 {
-  "name": "text-to-image-extension",
+  "name": "vizify",
   "version": "1.0.0",
-  "description": "Chrome extension to generate images from highlighted text using FAL's API",
+  "description": "Transform text into stunning AI-generated images instantly",
   "scripts": {
     "build": "tsc && bash build.sh",
     "build:ts": "tsc",

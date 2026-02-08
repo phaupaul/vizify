@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Text to Image Generator",
+  "name": "Vizify",
   "version": "1.0.0",
-  "description": "Generate images from highlighted text using FAL's API",
+  "description": "Transform text into stunning AI-generated images instantly",
   "permissions": [
     "storage",
     "contextMenus",
@@ -28,6 +28,6 @@
     "default_path": "sidepanel.html"
   },
   "action": {
-    "default_title": "Text to Image Generator"
+    "default_title": "Vizify"
   }
 }

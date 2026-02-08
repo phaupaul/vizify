@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Text to Image Generator</title>
+  <title>Vizify</title>
   <link rel="stylesheet" href="sidepanel.css">
 </head>
 <body>
@@ -13,11 +13,6 @@
   <div class="floating-orb orb-3"></div>
   
   <div class="container">
-    <header>
-      <h1>Text to Image</h1>
-      <button id="settings-btn" class="icon-btn" title="Settings">⚙️</button>
-    </header>
-    
     <div class="controls">
       <div class="prompt-input-group">
         <textarea 
@@ -55,6 +50,12 @@
         <!-- Historical images will be displayed here -->
       </div>
     </div>
+    
+    <footer>
+      <button id="settings-btn" class="settings-footer-btn" title="Settings">
+        ⚙️ Settings
+      </button>
+    </footer>
     
     <!-- Settings Modal -->
     <div id="settings-modal" class="modal hidden">
