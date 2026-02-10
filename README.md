@@ -10,9 +10,7 @@ A sleek Chrome extension that generates AI images from text using FAL's Flux Sch
 ## 🎬 Demo
 
 <div align="center">
-  <video src="https://github.com/phaupaul/vizify/raw/main/vizify-demo-20260207.mov" width="800" controls>
-    Your browser does not support the video tag.
-  </video>
+  <img src="vizify-demo.gif" alt="Vizify Demo" width="800">
 </div>
 
 ## ✨ Features
