@@ -7,7 +7,13 @@
 
 A sleek Chrome extension that generates AI images from text using FAL's Flux Schnell model. Select any text on the web, right-click, and watch it transform into stunning images.
 
-![Vizify Demo](https://via.placeholder.com/800x400?text=Vizify+Demo)
+## 🎬 Demo
+
+<div align="center">
+  <video src="https://github.com/YOUR_USERNAME/vizify/raw/main/Vizify-Demo-%20Paul%20Phau-20260207.mov" width="800" controls>
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ## ✨ Features
 
