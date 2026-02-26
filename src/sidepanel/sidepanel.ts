@@ -126,7 +126,7 @@ async function handleGenerateFromInput(): Promise<void> {
       showError('API key not configured. Please add your FAL API key in settings.');
       return;
     }
-    
+
     // Send the prompt directly to background for generation
     chrome.runtime.sendMessage({
       type: 'GENERATE_FROM_PROMPT',
@@ -157,7 +157,7 @@ async function handleGenerateClick(): Promise<void> {
       showError('API key not configured. Please add your FAL API key in settings.');
       return;
     }
-    
+
     // Send message to background to generate from current selection (Requirement 8.3)
     chrome.runtime.sendMessage({
       type: 'GENERATE_FROM_SIDEPANEL'

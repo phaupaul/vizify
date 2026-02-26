@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue.svg)](https://www.google.com/chrome/)
 
-A sleek Chrome extension that generates AI images from text using FAL's Flux Schnell model. Select any text on the web, right-click, and watch it transform into stunning images.
+A sleek Chrome extension that generates AI images from any text on the web. Select text, right-click, and watch it transform into stunning images.
 
 ## 🎬 Demo
 
@@ -15,7 +15,7 @@ A sleek Chrome extension that generates AI images from text using FAL's Flux Sch
 
 ## ✨ Features
 
-- 🎨 **AI Image Generation** - Powered by FAL's Flux Schnell model
+- 🎨 **AI Image Generation** - Fast, high-quality image generation
 - 🖱️ **Right-Click to Generate** - Select text anywhere and generate images
 - ⌨️ **Direct Input** - Type or paste prompts directly
 - 📚 **History** - Automatically saves your last 50 images
@@ -99,7 +99,6 @@ MIT License - see [LICENSE](LICENSE) for details
 
 ## 🙏 Acknowledgments
 
-- Powered by [FAL AI](https://fal.ai)
 - Inspired by modern web design principles
 
 ---
